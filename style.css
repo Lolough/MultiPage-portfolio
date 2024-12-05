@@ -85,13 +85,56 @@ body {
         padding: auto;
       }
 
-      #graphic{
-        border: solid 2px black;
+       #graphic{
+        border: solid 3px black;
         border-radius: 10px;
         height: 100px;
         margin-left: 20px;
-        margin-top:15px;2
+        margin-top:15px;
         margin-right: 15px;
+        box-shadow: 0, 5px, 15px, rgba(0,0,0,.1);
+        overflow: hidden;
+      }
+      #centerblock #optionB #graphic img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: .2s linear;
+      }
+
+      #centerblock #optionB #graphic:hover img{
+        transform: scale(1.1);
+      }
+
+      #centerblock #optionB-popup{
+        position: fixed;
+        top:0;
+        left:0;
+        background: rgba(0,0,0,.9);
+        height:100%;
+        width:100%;
+        z-index:100;
+      }
+
+      #centerblock #optionB-popup span{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size:60px;
+        font-weight: bolder;
+        color:#fff;
+        cursor: pointer;
+        z-index: 100;
+      }
+
+      #centerblock #optionB-popup graphic{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid #ffff;
+        border-radius: 5px;
+        width: 750px;
+        object-fit: cover;
       }
 
       /*contact info footer*/

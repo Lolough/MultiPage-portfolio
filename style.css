@@ -73,40 +73,56 @@ body {
         top: 25px;
         left: 10px;
       }
+      *{
+        margin:0; padding: 0;
+        box-sizing: border-box;
+      }
 
-      #optionB{
+      .optionB{
         border-radius: 20px;
+        position: relative;
+        height: 300px;
+        width: 800px;
         background: white;
-        height:275px;
-        width: 850px;
-        margin-top: 25px;
+        margin-top: 15px;
         margin-left: auto;
         margin-right: auto;
         padding: auto;
       }
 
-       #graphic{
+      #centerblock .optionB {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        justify-content: center;
+        padding: 5px;
+
+      }
+
+       #centerblock .optionB .graphic{
         border: solid 3px black;
         border-radius: 10px;
         height: 100px;
+        width: 150px;
         margin-left: 20px;
         margin-top:15px;
         margin-right: 15px;
         box-shadow: 0, 5px, 15px, rgba(0,0,0,.1);
         overflow: hidden;
+        cursor: pointer;
       }
-      #centerblock #optionB #graphic img{
+      #centerblock .optionB .graphic img{
         height: 100%;
         width: 100%;
         object-fit: cover;
         transition: .2s linear;
       }
 
-      #centerblock #optionB #graphic:hover img{
+      #centerblock .optionB .graphic:hover img{
         transform: scale(1.1);
       }
 
-      #centerblock #optionB-popup{
+      #centerblock .optionB-popup{
         position: fixed;
         top:0;
         left:0;
@@ -114,20 +130,19 @@ body {
         height:100%;
         width:100%;
         z-index:100;
+        display: none;
       }
 
-      #centerblock #optionB-popup span{
+      #centerblock .optionB-popup span{
         position: absolute;
         top: 0;
         right: 10px;
-        font-size:60px;
-        font-weight: bolder;
         color:#fff;
         cursor: pointer;
         z-index: 100;
       }
 
-      #centerblock #optionB-popup graphic{
+      #centerblock .optionB-popup img{
         position: absolute;
         top: 50%; left: 50%;
         transform: translate(-50%, -50%);
@@ -135,6 +150,12 @@ body {
         border-radius: 5px;
         width: 750px;
         object-fit: cover;
+      }
+
+      @media (max-width: 768px){
+        #centerblock .optionB-popup img{
+          width: 95%;
+        }
       }
 
       /*contact info footer*/

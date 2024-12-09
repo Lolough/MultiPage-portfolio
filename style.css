@@ -137,6 +137,8 @@ body {
         position: absolute;
         top: 0;
         right: 10px;
+        font-size: 40px;
+        font-weight: bolder;
         color:#fff;
         cursor: pointer;
         z-index: 100;
@@ -146,9 +148,9 @@ body {
         position: absolute;
         top: 50%; left: 50%;
         transform: translate(-50%, -50%);
-        border: 5px solid #ffff;
+        border: 5px solid #fff;
         border-radius: 5px;
-        width: 750px;
+        width: 500px;
         object-fit: cover;
       }
 

@@ -4,6 +4,7 @@
 <html>
 
     <head>
+        <script type="text/script" src="script.js"></script> 
         <link rel="stylesheet" href="style.css">
 
         <!-- video background -->
@@ -14,7 +15,6 @@
     </head>
 
         <body>
-            <script src="script.js"></script>
 
             <div class="banner">
                 <h1 id="name">Angel Gonzalez <br> 3D Artist / Graphic Designer</h1>
@@ -49,9 +49,22 @@
                     <img src="Portfolio 2D work (8)/Da_Spiff_backdrop.jpg" alt="">
 
                 </div>
-
-                <!-- Contact info -->
             </div>
+
+            <script>
+            document.querySelectorAll('.optionB img').forEach(graphic => {
+                graphic.onclick = () =>{
+                    document.querySelector('.optionB-popup').style.display = 'block';
+                    document.querySelector('.optionB-popup img').src = graphic.getAttribute('src');
+                }
+            });
+            
+                    document.querySelector('.optionB-popup span').onclick = () =>{
+                    document.querySelector('.optionB-popup').style.display = 'none';
+                    }
+            </script>
+ 
+                <!-- Contact info -->
             <div class="contactinfo">
                 <div id="contactBlock">
 

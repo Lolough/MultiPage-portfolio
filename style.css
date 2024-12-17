@@ -154,6 +154,15 @@ body {
         object-fit: cover;
       }
 
+      #centerblock .optionB-popup .likes{
+        position: absolute;
+        border-radius: 15%;
+        top: 50% left; left: 25%; bottom: 50%;
+        height: 30px; width: 50px;
+        font-size: 15px;
+        font-weight: bold;
+            }
+
       @media (max-width: 768px){
         #centerblock .optionB-popup img{
           width: 95%;

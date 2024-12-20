@@ -47,14 +47,14 @@
 
                 <div class="optionB-popup">
                     <span>&times;</span>
-                    <img src="Portfolio 2D work (8)/Da_Spiff_backdrop.jpg" alt="">
-                    <button class="likes" onclick="likes();">Likes</button>
-                    <p id="counts"></p>
+                    <button class="likes" onclick="likes();"><img src="Portfolio 2D work (8)/Da_Spiff_backdrop.jpg" alt=""></button>
+                    <p id="views"> Views: <label id="counter">0 </label></p>
 
                 </div>
             </div>
 
-            <script>
+            <script src="script.js"></script> 
+            <!--<script>
             document.querySelectorAll('.optionB img').forEach(graphic => {
                 graphic.onclick = () =>{
                     document.querySelector('.optionB-popup').style.display = 'block';
@@ -65,7 +65,7 @@
                     document.querySelector('.optionB-popup span').onclick = () =>{
                     document.querySelector('.optionB-popup').style.display = 'none';
                     }
-            </script>
+            </script>-->
  
                 <!-- Contact info -->
             <div class="contactinfo">
@@ -82,5 +82,6 @@
                     </div>
                 </div>
             </div>
+            <script src="script.js"></script> 
         </body>
 </html>

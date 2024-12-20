@@ -1,5 +1,3 @@
-//image resizing on same page
-
 let count = 0;
 
 document.querySelectorAll('.optionB img').forEach(graphic => {
@@ -11,10 +9,12 @@ document.querySelectorAll('.optionB img').forEach(graphic => {
 
         document.querySelector('.optionB-popup span').onclick = () =>{
         document.querySelector('.optionB-popup').style.display = 'none';
+        count+=1;
+        document.getElementById("counterlabel-1").innerHTML = count;
         }
-        
-let count = 0;
-document.getdocumentbyid('.optionB img').onclick = function(){
-    count += 1;
-    document.getElementById('.counter') = count;
-}
+
+/*document.querySelector('.optionB').onclick = function(){
+
+    count+=1;
+    document.getElementById("counterlabel").innerHTML = count;
+}*/

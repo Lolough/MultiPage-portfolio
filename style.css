@@ -50,7 +50,7 @@ body {
         background: white;
         height:200px;
         width: 850px;
-        margin-top: 5px;
+        margin-top: 12px;
         margin-left: auto;
         margin-right: auto;
         padding: auto;
@@ -153,15 +153,14 @@ body {
         width: 500px;
         object-fit: cover;
       }
-
-      #centerblock .optionB-popup .likes{
+      #centerblock .optionB-popup #views{
+        display: block;
         position: absolute;
-        border-radius: 15%;
-        top: 50% left; left: 25%; bottom: 50%;
-        height: 30px; width: 50px;
-        font-size: 15px;
-        font-weight: bold;
-            }
+        top: 50%; left: 25%;
+        font-size: 30px;
+        color: white;
+        background-color: rgba(0,0,0,1)
+      }
 
       @media (max-width: 768px){
         #centerblock .optionB-popup img{

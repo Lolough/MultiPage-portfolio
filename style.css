@@ -153,10 +153,17 @@ body {
         width: 500px;
         object-fit: cover;
       }
-      #centerblock .optionB-popup #views{
+      /*#centerblock .optionB #likes{
+
+        font-size: 30px;
+        color: white;
+        background-color: rgba(0,0,0,1)
+      }*/
+
+      #centerblock .optionB-popup #counterlabel-1{
         display: block;
         position: absolute;
-        top: 50%; left: 25%;
+        top: 50%; left: 31%;
         font-size: 30px;
         color: white;
         background-color: rgba(0,0,0,1)

@@ -1,225 +1,225 @@
 body {
-    #myVideo {
-        object-fit:cover;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        width:100%;
-        height:100%;
-        z-index:-2;
-      }
-
-      /*header*/
-      .banner{
-        border-radius: 20px;
-        border: solid 5px black;
-        background-image: url("background images/footer_background_2.png");
-        height:100px;
-        width: 850px;
-        margin-top:20px;
-        margin-bottom:10px;
-        margin-left:auto;
-        margin-right:auto;
-        }
-        #name{
-          text-align: center;
-          margin-top: 10px;
-
-        }
-        
-      /*main body*/
-      #centerblock{
-        border-radius: 20px;
-        border: solid, 5px, black;
-        height:550px;
-        width:900px;
-        background:rgba(4, 6, 113, 0.634);
-        margin-left: auto;
-        margin-right:auto;
-    }
-
-    #twoDText{
-        font-size: 20px;
-        position: relative;
-        top: 25px;
-        right: 10px;
-      }
-
-      #optionA{
-        border-radius: 20px;
-        background: white;
-        height:200px;
-        width: 850px;
-        margin-top: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: auto;
-        
-      }
-
-
-      #photo1{
-          border-radius: 20px;
-          width: 300px;
-          margin-right: 20px;
-          margin-top:15px;
-          margin-left: 15px;
-          float:left;
-      }
-
-      #threeDText{
-        font-size: 20px;
-        position: relative;
-        top: 25px;
-        left: 10px;
-      }
-      *{
-        margin:0; padding: 0;
-        box-sizing: border-box;
-      }
-
-      .optionB{
-        border-radius: 20px;
-        position: relative;
-        height: 300px;
-        width: 800px;
-        background: white;
-        margin-top: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: auto;
-      }
-
-      #centerblock .optionB {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2px;
-        justify-content: center;
-        padding: 5px;
-
-      }
-
-       #centerblock .optionB .graphic{
-        border: solid 3px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 150px;
-        margin-left: 20px;
-        margin-top:15px;
-        margin-right: 15px;
-        box-shadow: 0, 5px, 15px, rgba(0,0,0,.1);
-        overflow: hidden;
-        cursor: pointer;
-      }
-      #centerblock .optionB .graphic img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        transition: .2s linear;
-      }
-
-      #centerblock .optionB .graphic:hover img{
-        transform: scale(1.1);
-      }
-
-      #centerblock .optionB-popup{
-        position: fixed;
-        top:0;
-        left:0;
-        background: rgba(0,0,0,.9);
-        height:100%;
-        width:100%;
-        z-index:100;
-        display: none;
-      }
-
-      #centerblock .optionB-popup span{
-        position: absolute;
-        top: 0;
-        right: 10px;
-        font-size: 40px;
-        font-weight: bolder;
-        color:#fff;
-        cursor: pointer;
-        z-index: 100;
-      }
-
-      #centerblock .optionB-popup img{
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%);
-        border: 5px solid #fff;
-        border-radius: 5px;
-        width: 500px;
-        object-fit: cover;
-      }
-      /*#centerblock .optionB #likes{
-
-        font-size: 30px;
-        color: white;
-        background-color: rgba(0,0,0,1)
-      }*/
-
-      #centerblock .optionB-popup #counterlabel-1{
-        display: block;
-        position: absolute;
-        top: 50%; left: 31%;
-        font-size: 30px;
-        color: white;
-        background-color: rgba(0,0,0,1)
-      }
-
-      @media (max-width: 768px){
-        #centerblock .optionB-popup img{
-          width: 95%;
-        }
-      }
-
-      /*contact info footer*/
-    .contactinfo{
-      left:0;
-      bottom:0;
+  #myVideo {
+      object-fit:cover;
       position: fixed;
-      width: 100%;
-      height: 150px;
-      background-size: 100% 100%;
-      z-index:-1;
+      right: 0;
+      bottom: 0;
+      width:100%;
+      height:100%;
+      z-index:-2;
     }
 
-    #contactBlock{
-      border: solid, 5px, black;
+    /*header*/
+    .banner{
       border-radius: 20px;
+      border: solid 5px black;
       background-image: url("background images/footer_background_2.png");
-      opacity: 1;
-      height:80px;
+      height:100px;
       width: 850px;
-      margin-top: 40px;
-      margin-bottom:20px;
+      margin-top:20px;
+      margin-bottom:10px;
       margin-left:auto;
       margin-right:auto;
+      }
+      #name{
+        text-align: center;
+        margin-top: 10px;
+
+      }
+      
+    /*main body*/
+    #centerblock{
+      border-radius: 20px;
+      border: solid, 5px, black;
+      height:550px;
+      width:900px;
+      background:rgba(4, 6, 113, 0.634);
+      margin-left: auto;
+      margin-right:auto;
+  }
+
+  #twoDText{
+      font-size: 20px;
+      position: relative;
+      top: 25px;
+      right: 10px;
+    }
+
+    #optionA{
+      border-radius: 20px;
+      background: white;
+      height:200px;
+      width: 850px;
+      margin-top: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: auto;
+      
+    }
+
+
+    #photo1{
+        border-radius: 20px;
+        width: 300px;
+        margin-right: 20px;
+        margin-top:15px;
+        margin-left: 15px;
+        float:left;
+    }
+
+    #threeDText{
+      font-size: 20px;
+      position: relative;
+      top: 25px;
+      left: 10px;
+    }
+    *{
+      margin:0; padding: 0;
+      box-sizing: border-box;
+    }
+
+    .optionB{
+      border-radius: 20px;
+      position: relative;
+      height: 300px;
+      width: 800px;
+      background: white;
+      margin-top: 15px;
+      margin-left: auto;
+      margin-right: auto;
       padding: auto;
     }
 
-    #cit{
-      margin:auto;
-      margin-bottom:10px;
-      opacity: 1;
+    #centerblock .optionB {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2px;
+      justify-content: center;
+      padding: 5px;
+
     }
 
-    #pe{
-      top: 10px;
-      left:30px;
-      position: relative;
-      font-size: 20px;
-      float:left;
-        
+     #centerblock .optionB .graphic{
+      border: solid 3px black;
+      border-radius: 10px;
+      height: 100px;
+      width: 150px;
+      margin-left: 20px;
+      margin-top:15px;
+      margin-right: 15px;
+      box-shadow: 0, 5px, 15px, rgba(0,0,0,.1);
+      overflow: hidden;
+      cursor: pointer;
+    }
+    #centerblock .optionB .graphic img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: .2s linear;
     }
 
-    #sm{
-      top: 10px;
-      right:30px;
-      position: relative;
-      font-size: 20px;
-      float:right;
+    #centerblock .optionB .graphic:hover img{
+      transform: scale(1.1);
     }
+
+    #centerblock .optionB-popup{
+      position: fixed;
+      top:0;
+      left:0;
+      background: rgba(0,0,0,.9);
+      height:100%;
+      width:100%;
+      z-index:100;
+      display: none;
+    }
+
+    #centerblock .optionB-popup span{
+      position: absolute;
+      top: 0;
+      right: 10px;
+      font-size: 40px;
+      font-weight: bolder;
+      color:#fff;
+      cursor: pointer;
+      z-index: 100;
+    }
+
+    #centerblock .optionB-popup img{
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      border: 5px solid #fff;
+      border-radius: 5px;
+      width: 500px;
+      object-fit: cover;
+    }
+    /*#centerblock .optionB #likes{
+
+      font-size: 30px;
+      color: white;
+      background-color: rgba(0,0,0,1)
+    }*/
+
+    #centerblock .optionB-popup #counterlabel-1{
+      display: block;
+      position: absolute;
+      top: 50%; left: 31%;
+      font-size: 30px;
+      color: white;
+      background-color: rgba(0,0,0,1)
+    }
+
+    @media (max-width: 768px){
+      #centerblock .optionB-popup img{
+        width: 95%;
+      }
+    }
+
+    /*contact info footer*/
+  .contactinfo{
+    left:0;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-size: 100% 100%;
+    z-index:-1;
+  }
+
+  #contactBlock{
+    border: solid, 5px, black;
+    border-radius: 20px;
+    background-image: url("background images/footer_background_2.png");
+    opacity: 1;
+    height:80px;
+    width: 850px;
+    margin-top: 40px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: auto;
+  }
+
+  #cit{
+    margin:auto;
+    margin-bottom:10px;
+    opacity: 1;
+  }
+
+  #pe{
+    top: 10px;
+    left:30px;
+    position: relative;
+    font-size: 20px;
+    float:left;
+      
+  }
+
+  #sm{
+    top: 10px;
+    right:30px;
+    position: relative;
+    font-size: 20px;
+    float:right;
+  }
 }

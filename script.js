@@ -1,4 +1,5 @@
-let count = 0;
+
+//app.listen(8000);
 
 document.querySelectorAll('.optionB img').forEach(graphic => {
     graphic.onclick = () =>{
@@ -9,9 +10,11 @@ document.querySelectorAll('.optionB img').forEach(graphic => {
 
         document.querySelector('.optionB-popup span').onclick = () =>{
         document.querySelector('.optionB-popup').style.display = 'none';
-        count+=1;
-        document.getElementById("counterlabel-1").innerHTML = count;
+        //count+=1;
+        //document.getElementById("counterlabel-1").innerHTML = count;
         }
+
+
 
 /*document.querySelector('.optionB').onclick = function(){
 
